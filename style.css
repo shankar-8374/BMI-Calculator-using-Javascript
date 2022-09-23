@@ -5,7 +5,7 @@ body
 .block1
 {
 	margin: auto;
-	border: 2px solid gray;
+	border: 2px solid black;
 	width: 30%;
 	padding: 30px;
 	border-radius: 5px;
@@ -14,11 +14,15 @@ h1
 {
 	text-align: center;
 	padding: 1px;
-	color: black;
+	color: rebeccapurple;
 }
 .container
 {
 padding: 25px 25px;
 margin: 1px;
 margin-top: 10%;
+}
+#button:hover
+{
+	transform: scale(1.1);
 }
